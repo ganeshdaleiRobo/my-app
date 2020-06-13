@@ -1,12 +1,28 @@
 .rxjs-container{
-    width: 80%;
+    
     margin: auto;
     
     .rxjs-container-inner{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
         height: 80vh;
+        
+        .rxjs-container-left-side{
+            height: 87vh;
+            background-color: #151515;
+            color: white;
+            width: 290px;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+        
+        }
+        .rxjs-container-left-search{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+
     }
 }
 .input-wapper{

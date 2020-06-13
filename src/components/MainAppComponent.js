@@ -1,6 +1,7 @@
 import React from 'react';
 import utility from '../utility/utility';
 import Search from './search/Search';
+import LeftSideBar from './leftSideBar/Left-side-bar';
 class  MainAppComponent extends React.Component{
     render(){
         return(
@@ -11,7 +12,11 @@ class  MainAppComponent extends React.Component{
                 </div>
                 <div className="rxjs-container">
                     <div className="rxjs-container-inner">
-                    <Search/>
+                        <div  className="rxjs-container-left-side">
+                        <LeftSideBar/>
+                            </div>
+     
+                        
                     </div>
                 </div>
                 
