@@ -1,0 +1,34 @@
+.rxjs-container{
+    width: 80%;
+    margin: auto;
+    
+    .rxjs-container-inner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+    }
+}
+.input-wapper{
+
+    .input-main > input{
+        width: 629px;
+        height: 46px;
+        font-size: 20px;
+    }
+    .Search-button{
+        display: flex;
+       justify-content: center;
+        .Button{
+            width: 150px;
+            height: 50px;
+            margin-top: 20px;
+            background: transparent;
+            border: none;
+            border: solid 1px black;
+            cursor: pointer;
+        }
+    }
+
+
+}
